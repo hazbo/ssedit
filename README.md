@@ -15,14 +15,14 @@ Binary distributions are on their way.
 $ go get -u github.com/hazbo/ssedit/ssedit
 ```
 
+Providing GOPATH/bin is in your PATH, running the above is all you should need
+to do.
+
 or
 
 ```
 $ brew install hazbo/tools/ssedit
 ```
-
-Providing GOPATH/bin is in your PATH, running the above is all you should need
-to do.
 
 ### Usage
 
