@@ -11,8 +11,14 @@ Binary distributions are on their way.
 
 ### Install
 
-```bash
+```
 $ go get -u github.com/hazbo/ssedit/ssedit
+```
+
+or
+
+```
+$ brew install hazbo/tools/ssedit
 ```
 
 Providing GOPATH/bin is in your PATH, running the above is all you should need
@@ -20,7 +26,7 @@ to do.
 
 ### Usage
 
-```bash
+```
 $ ssedit open hazbo@example.com /home/hazbo/config.json
 ```
 
@@ -42,7 +48,7 @@ you're finished with ssedit they should be automatically deleted. However this
 program is super new and there might be bugs, so you can manually clear the
 locally stored files by doing the following if something goes wrong:
 
-```bash
+```
 $ ssedit clear
 ```
 
