@@ -1,4 +1,5 @@
 build:
   image: golang
   commands:
+    - go get -u gopkg.in/fsnotify.v1
     - make all
